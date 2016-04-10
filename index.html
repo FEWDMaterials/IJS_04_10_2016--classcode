@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
+    <title>IntermediateJS Class Starter</title>
+    <link rel='stylesheet' href='styles/semantic.min.css'>
+    <link rel='stylesheet' href='styles/main.css'>
+</head>
+<body id="app">
+
+<!--     <div class="ui grid centered">
+        <div class="twelve wide column">
+            <div class="ui centered card">
+                <div class="image">
+                    <img src="http://semantic-ui.com/images/avatar2/large/elyse.png">
+                </div>
+                <div class="content">
+                    <a class="header">Hello, Wrold!</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="divs">1</div>
+    <div class="divs">2</div>
+    <div class="divs">3</div>
+    <style>
+        .clearfix:after {
+            content: " ";
+            display: block;
+            clear: both;
+        }
+        .mySlider {
+            width: 300px;
+            border: 5px solid red;
+            position: relative;
+            height: 50px;
+        }
+        .mySlider__content {
+            float: left;
+            width: 300px;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        /* sup */
+        .mySlider__container {
+            width: 900px;
+            position: absolute;
+            left: 0px;
+            transition: left 0.3s ease-in-out;
+        }
+    </style>
+    <div class="ui grid centered">
+         <div class="twelve wide column">
+            <div class="mySlider js-slider">
+            <div class="clearfix mySlider__container js-slider2">
+                <div class="mySlider__content">
+                    FOO
+                </div><!-- mySlider__content -->
+                <div class="mySlider__content">
+                    BAR
+                </div><!-- mySlider__content -->
+                <div class="mySlider__content">
+                    BAZ
+                </div><!-- mySlider__content -->
+            </div>
+            </div>
+            <button class="btn js-stop2">Stop</button>
+            <button class="btn js-stop1">Stop2</button>
+            <div class="mySlider js-slider">
+            <div class="clearfix mySlider__container js-slider1">
+                <div class="mySlider__content">
+                    FOO
+                </div><!-- mySlider__content -->
+                <div class="mySlider__content">
+                    BAR
+                </div><!-- mySlider__content -->
+                <div class="mySlider__content">
+                    BAZ
+                </div><!-- mySlider__content -->
+            </div>
+            </div>
+         </div><!-- twelve wide column -->
+    </div><!-- ui grid centered -->
+
+    <script src='javascript/dist/bundle.js'></script>
+</body>
+</html>
